@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css.css">
+    <link rel="stylesheet" href="simple-lightbox.min.css">
+    <title>Phono | Love headphones</title>
+</head>
+<body>
+    <nav class="navbar" id="home">
+        <div class="container">
+          <h1 class="logo">Phono</h1>
+          <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#specs">Specs</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+          </ul>
+        </div>
+      </nav>
+  
+      <!-- Showcase -->
+      <section class="section-a">
+        <div class="container">
+          <div>
+            <h1>The headphones of the future.</h1>
+            <p>
+                With an advanced acoustic platform and noise cancelling, Phono ensures you’ll always have the right sound for the right situation. Actively blocks external noise and uses real-time audio calibration, giving you the space you need to create and stay inspired.
+            </p>
+            <a href="#seemore" class="btn">See More</a>
+          </div>
+          <img src="https://i.ibb.co/37Y74kv/showcase.jpg" alt="" />
+        </div>
+      </section>
+  
+      <!-- Large Text -->
+      <section id="about" class="section-b">
+        <div class="overlay">
+          <div class="section-b-inner py-5">
+            <h3 class="text-2">Loud & Clear</h3>
+            <h2 class="text-5 mt-1">People Aren't Hearing All the Music</h2>
+            <p class="mt-1">
+                Naturally filters in more environmental and ambient noise to help you stay aware of your surroundings.
+            </p>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Gallery -->
+      <section class="section-c" id="seemore">
+        <div class="gallery">
+          <a href="https://i.ibb.co/CHLBZnp/gal2323.jpg" class="big"
+            ><img src="https://i.ibb.co/CHLBZnp/gal2323.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/4pBbhfY/gal39834.jpg" class="big"
+            ><img src="https://i.ibb.co/4pBbhfY/gal39834.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/xSnHP7g/gal43884.jpg" class="big"
+            ><img src="https://i.ibb.co/xSnHP7g/gal43884.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/QN6Bnrb/gal4958.jpg" class="big"
+            ><img src="https://i.ibb.co/QN6Bnrb/gal4958.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/dGZvj75/gal4545.jpg" class="big">
+            <img src="https://i.ibb.co/dGZvj75/gal4545.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/S6FVFNt/gal74744.jpg" class="big"
+            ><img src="https://i.ibb.co/S6FVFNt/gal74744.jpg" alt=""
+          /></a>
+        </div>
+      </section>
+  
+      <!-- Footer -->
+      <footer class="section-footer py-4 bg-primary">
+        <div class="container">
+          <div>
+            <a href="#home"><h2 class="text-2 mb-1">Phono Beats</h2></a>
+            <a href="http://twitter.com">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="http://facebook.com">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="http://youtube.com">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+          </div>
+          <div>
+            <h3>Company Info</h3>
+            <ul>
+              <li><a href="#">All Products</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Blog Posts</h3>
+            <ul>
+              <li><a href="#">The Future of Headphones.</a></li>
+              <li><a href="#">Noise Cancelling.</a></li>
+              <li><a href="#">New Products.</a></li>
+              <li><a href="#">collaborations.</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Subscribe</h3>
+            <p>
+                Sign up now to hear about product drops and collaborations — straight from your inbox.
+            </p>
+            <form
+              class="mt-1"
+              name="email-form"
+              method="POST"
+              data-netlify="true"
+            >
+              <div class="email-form">
+                <span class="form-control-wrap"
+                  ><input
+                    type="email"
+                    name="email"
+                    id="email"
+                    size="40"
+                    class="form-control"
+                    placeholder="E-mail"/></span
+                ><button type="submit" value="Submit" class="form-control submit">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </footer>
+
+
+      <script src="jquery-3.4.1.min.js"></script>
+      <script src="simple-lightbox.min.js"></script>
+      <script>
+        $(function() {
+          const $gallery = $('.gallery a').simpleLightbox();
+        });
+      </script>
+</body>
+</html>
